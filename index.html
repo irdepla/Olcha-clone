@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + Tailwind CSS</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  </head>
+  <body>
+    <header>
+      <section class="top-header">
+        <div class="container">
+          <img src="./images/top-header-img.png" alt="">
+        </div>
+      </section>
+      <nav class="nav bg-[#da002b] py-2">
+        <div class="container">
+          <div class="nav__wrapper flex justify-between items-center">
+            <div class="nav__buttons flex items-center gap-8">
+               <button class="text-[#da002b] px-2 py-[6px]  border-white border-solid border-2 hover:bg-transparent hover:text-white rounded-xl bg-white credit__btn">
+                0% Рассрочка
+              </button>
+               <button class="hover:text-[#da002b] border-2 border-solid text-white hover:bg-white px-2 py-[6px] hover:border-white hover:border-solid hover:border-2 bg-transparent rounded-xl sales__btn">
+                Скидки
+              </button>
+              <button class="text-[#da002b] px-2 py-[6px]  border-white border-solid border-2 hover:bg-transparent hover:text-white rounded-xl bg-white credit__btn">
+                Розыгрыши
+              </button>
+              <a href="#">
+                <span class="font-medium ml-5">
+                  Карта сайта
+                </span>
+              </a>
+            </div>
+            <div class="nav__contact flex items-center gap-4">
+              <a href="#">
+                <span class="text-xl font-bold"> +998 (71) 202 202 1 </span>
+              </a>
+              <button class="hover:text-[#da002b] border-2 border-solid text-white hover:bg-white ml-4 px-4 py-[6px] hover:border-white hover:border-solid hover:border-2 bg-transparent rounded-xl sell__btn">
+                Продавайте на olcha
+              </button>
+              <div class="language__bar flex items-center gap-2 px-3 border-x border-x-[#ffffffb3]">
+                <button>
+                  <span class="text-[#ffffffb3]">Ўзб</span>
+                </button>
+                <button>
+                  <span class="text-[#ffffffb3]">O'z</span>
+                </button>
+                <button>
+                  <span class="text-white font-bold">Рус</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="navigation pt-7 pb-5">
+        <div class="container">
+          <div class="navigation__wrapper flex justify-between items-center">
+          <div class="navigation__logo">
+            <img src="./icons/olcha-logo.png" alt="olcha-logo" class="w-[102px] h-[30px]">
+          </div>
+          <button class="navigation-menu__btn flex items-center gap-4 ml-6">
+            <img src="./icons/burger-btn.png" alt="" class="w-7">
+            <span>Каталог</span>
+          </button>
+          <div class="flex
+           border">
+            <input
+              type="text"
+              placeholder="Поиск по каталогу"
+              class="pt-[10px] pb-[12px] pl-[16px] outline-none"
+            />
+            <button class="px-[27px] py-2 rounded-xl ml-11 bg-red-800">
+              <img src="./icons/search-btn.svg" alt="" class="" />
+            </button>
+          </div>
+          <div class="flex gap-1">
+            <a href="#" class="flex flex-col">
+              <i class="fa-solid fa-chart-simple"></i>
+              <span></span>
+            </a>
+          </div>
+        </div>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
