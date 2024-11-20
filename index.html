@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + Tailwind CSS</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -39,7 +43,9 @@
                 <span class="text-xl font-bold"> +998 (71) 202 202 1 </span>
               </a>
               <button class="hover:text-[#da002b] border-2 border-solid text-white hover:bg-white ml-4 px-4 py-[6px] hover:border-white hover:border-solid hover:border-2 bg-transparent rounded-xl sell__btn">
-                Продавайте на olcha
+                <a href="/admin.html">
+                  <span>Продавайте на olcha</span>
+                </a>
               </button>
               <div class="language__bar flex items-center gap-2 px-3 border-x border-x-[#ffffffb3]">
                 <button>
@@ -64,10 +70,12 @@
           <div class="navigation__logo">
             <img src="./icons/olcha-logo.png" alt="olcha-logo" class="w-[102px] h-[30px]">
           </div>
-          <button class="navigation-menu__btn flex items-center gap-4 ml-6">
-            <img src="./icons/burger-btn.png" alt="" class="w-7">
-            <span>Каталог</span>
-          </button>
+          <div>
+            <button class="navigation-menu__btn flex items-center gap-4 ml-6">
+              <img src="./icons/burger-btn.png" alt="" class="w-7">
+              <span>Каталог</span>
+            </button>
+          </div>
           <div class="flex
            border">
             <input
@@ -82,13 +90,293 @@
           <div class="flex gap-1">
             <a href="#" class="flex flex-col">
               <i class="fa-solid fa-chart-simple"></i>
-              <span></span>
+              <span>Сравнение</span>
+            </a>
+            <a href="#" class="flex flex-col">
+              <i class="fa-regular fa-heart"></i>
+              <span>Избранное</span>
+            </a>
+            <a href="/korzinka.html" class="flex flex-col">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <span>Корзина</span>
             </a>
           </div>
         </div>
         </div>
       </section>
+      <section class="hero mt-36">
+        <div class="container">
+          <div class="hero__wrapper">
+            <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <img src="./images/swiper1.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/swiper2.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/swiper3.png" alt="">
+                </div>
+              </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+            
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>            
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="card-slider">
+        <div class="container">
+          <div class="slider">
+            <button class="prev">❮</button>
+            <div class="slider-wrapper">
+              <div class="slider-cards w-[128px]">
+
+                <div class="card flex flex-col items-center">
+                  <div class="flex items-center">
+                    <img src="./images/tv.png" alt="">
+                  </div>
+                  <div>
+                    <span>
+                      Ноутбуки, <br> принтеры, <br> компьютеры
+                    </span>
+                  </div>
+                </div>
+                
+
+                <div class="card flex flex-col items-center">
+                  <div class="flex items-center">
+                    <img src="./images/tv.png" alt="">
+                  </div>
+                  <div>
+                    <span>
+                      Ноутбуки, <br> принтеры, <br> компьютеры
+                    </span>
+                  </div>
+                </div>
+
+                <div class="card flex flex-col items-center">
+                  <div class="flex items-center">
+                    <img src="./images/tv.png" alt="">
+                  </div>
+                  <div>
+                    <span>
+                      Ноутбуки, <br> принтеры, <br> компьютеры
+                    </span>
+                  </div>
+                </div>
+
+                <div class="card flex flex-col items-center">
+                  <div class="flex items-center">
+                    <img src="./images/tv.png" alt="">
+                  </div>
+                  <div>
+                    <span>
+                      Ноутбуки, <br> принтеры, <br> компьютеры
+                    </span>
+                  </div>
+                </div>
+
+                <div class="card flex flex-col items-center">
+                  <div class="flex items-center">
+                    <img src="./images/tv.png" alt="">
+                  </div>
+                  <div>
+                    <span>
+                      Ноутбуки, <br> принтеры, <br> компьютеры
+                    </span>
+                  </div>
+                </div>
+
+                <div class="card flex flex-col items-center">
+                  <div class="flex items-center">
+                    <img src="./images/tv.png" alt="">
+                  </div>
+                  <div>
+                    <span>
+                      Ноутбуки, <br> принтеры, <br> компьютеры
+                    </span>
+                  </div>
+                </div>
+
+                <div class="card flex flex-col items-center">
+                  <div class="flex items-center">
+                    <img src="./images/tv.png" alt="">
+                  </div>
+                  <div>
+                    <span>
+                      Ноутбуки, <br> принтеры, <br> компьютеры
+                    </span>
+                  </div>
+                </div>
+
+                <div class="card flex flex-col items-center">
+                  <div class="flex items-center">
+                    <img src="./images/tv.png" alt="">
+                  </div>
+                  <div>
+                    <span>
+                      Ноутбуки, <br> принтеры, <br> компьютеры
+                    </span>
+                  </div>
+                </div>
+
+                <div class="card flex flex-col items-center">
+                  <div class="flex items-center">
+                    <img src="./images/tv.png" alt="">
+                  </div>
+                  <div>
+                    <span>
+                      Ноутбуки, <br> принтеры, <br> компьютеры
+                    </span>
+                  </div>
+                </div>
+
+                <div class="card flex flex-col items-center">
+                  <div class="flex items-center">
+                    <img src="./images/tv.png" alt="">
+                  </div>
+                  <div>
+                    <span>
+                      Ноутбуки, <br> принтеры, <br> компьютеры
+                    </span>
+                  </div>
+                </div>
+
+                <div class="card flex flex-col items-center">
+                  <div class="flex items-center">
+                    <img src="./images/tv.png" alt="">
+                  </div>
+                  <div>
+                    <span>
+                      Ноутбуки, <br> принтеры, <br> компьютеры
+                    </span>
+                  </div>
+                </div>
+
+                <div class="card flex flex-col items-center">
+                  <div class="flex items-center">
+                    <img src="./images/tv.png" alt="">
+                  </div>
+                  <div>
+                    <span>
+                      Ноутбуки, <br> принтеры, <br> компьютеры
+                    </span>
+                  </div>
+                </div>
+
+                <div class="card flex flex-col items-center">
+                  <div class="flex items-center">
+                    <img src="./images/tv.png" alt="">
+                  </div>
+                  <div>
+                    <span>
+                      Ноутбуки, <br> принтеры, <br> компьютеры
+                    </span>
+                  </div>
+                </div>
+
+                <div class="card flex flex-col items-center">
+                  <div class="flex items-center">
+                    <img src="./images/tv.png" alt="">
+                  </div>
+                  <div>
+                    <span>
+                      Ноутбуки, <br> принтеры, <br> компьютеры
+                    </span>
+                  </div>
+                </div>
+
+                <div class="card flex flex-col items-center">
+                  <div class="flex items-center">
+                    <img src="./images/tv.png" alt="">
+                  </div>
+                  <div>
+                    <span>
+                      Ноутбуки, <br> принтеры, <br> компьютеры
+                    </span>
+                  </div>
+                </div>
+
+                <div class="card flex flex-col items-center">
+                  <div class="flex items-center">
+                    <img src="./images/tv.png" alt="">
+                  </div>
+                  <div>
+                    <span>
+                      Ноутбуки, <br> принтеры, <br> компьютеры
+                    </span>
+                  </div>
+                </div>
+
+                <div class="card flex flex-col items-center">
+                  <div class="flex items-center">
+                    <img src="./images/tv.png" alt="">
+                  </div>
+                  <div>
+                    <span>
+                      Ноутбуки, <br> принтеры, <br> компьютеры
+                    </span>
+                  </div>
+                </div>
+
+                <div class="card flex flex-col items-center">
+                  <div class="flex items-center">
+                    <img src="./images/tv.png" alt="">
+                  </div>
+                  <div>
+                    <span>
+                      Ноутбуки, <br> принтеры, <br> компьютеры
+                    </span>
+                  </div>
+                </div>
+
+                <div class="card flex flex-col items-center">
+                  <div class="flex items-center">
+                    <img src="./images/tv.png" alt="">
+                  </div>
+                  <div>
+                    <span>
+                      Ноутбуки, <br> принтеры, <br> компьютеры
+                    </span>
+                  </div>
+                </div>
+
+                <div class="card flex flex-col items-center">
+                  <div class="flex items-center">
+                    <img src="./images/tv.png" alt="">
+                  </div>
+                  <div>
+                    <span>
+                      Ноутбуки, <br> принтеры, <br> компьютеры
+                    </span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <button class="next">❯</button>
+          </div>
+          
+          
+        </div>
+      </section>
+      <section class="products__section">
+        <div class="container">
+          <div class="product__wrapper mt-8">
+
+          </div>
+        </div>
+      </section>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script type="module" src="./js/main.js"></script>
+    <script src="./js/swiper.js"></script>
   </body>
 </html>
